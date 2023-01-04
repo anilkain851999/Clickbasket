@@ -1,0 +1,862 @@
+/*ClickBasket Index Page Css*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+body{
+	background: #F1FFF1;
+}
+
+/**===============Header css start*===============*/
+div#navbarSupportedContent {
+    margin-left: 6%;
+}
+header#siteheader li.nav-item a.nav-link.active {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #171918;
+}
+
+header#siteheader li.nav-item a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #655B50;
+}
+
+header#siteheader li.nav-item {
+    margin-right: 35px;
+}
+a.icon_andriod {
+    margin-right: 20px;
+}
+.icon_store img {
+    width: 27px;
+}
+/*===============*Header css End*===============*/
+
+
+/*========Main banner section css start========*/
+section.main_banner .bg_green_baner {
+    background-color: #296e50;
+    padding: 50px 0 0px 0;
+    border-radius: 25px;
+}
+section.main_banner .delhivery_col {
+    align-items: center!important;
+    width: 300px;
+    height: 48px;
+    left: 185px;
+    top: 135px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.main_left {
+    padding-left: 55px;
+}
+.main_left img {
+    margin-left: 15px;
+}
+.main_left span.caption_delhivery {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F1F1F1;
+    margin-left: 15px;
+}
+section.main_banner .delhivery_col img {
+    width: 45px;
+}
+.main_left .main_content h1.title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    color: #F1F1F1;
+}
+.main_left .main_content h1.title span {
+    color: #ABD03E;
+}
+.main_left p.main_description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F1F1F1;
+    margin-top: 21px;
+    margin-bottom: 30px;
+}
+.main_button a.button_green {
+    background: #ABD03E;
+    box-shadow: 1px 12px 46px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 13px 36px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    color: #F1F1F1;
+}
+.main_right {
+    position: relative;
+}
+.delhivery_partner {
+    background: #F1FFFF;
+    box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    width: 255px;
+    position: absolute;
+    bottom: 47px;
+    left: 115px;
+}
+.del_box {
+    padding: 6px;
+}
+.del_box .circle {
+    width: 48px;
+    height:48px;
+    background: #296e50;
+    border-radius: 50px;
+    position: relative;
+}
+.inner_circle {
+    background: #ABD03E;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    z-index: 999;
+    text-align: center;
+    position: absolute;
+    top: 17%;
+    left: 9px;
+}
+.delhivery_partner_content {
+    margin-left: 10px;
+}
+.delhivery_partner_content h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #171918;
+}
+.delhivery_partner_content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #296E50;
+}
+.fresh_active {
+    background: #F1FFFF;
+    box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    width: 104px;
+    text-align: center;
+    padding: 8px 0px 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 92px;
+}
+img.fresh_basket {
+    width: 50px;
+}
+p.percntage {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ABD03E;
+}
+p.fresh_para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #171918;
+}
+.grocery_img img {
+    width: 640px;
+}
+/*========Main banner section css start========*/
+
+
+
+/*========Top categeory start========*/
+section#top_categeory {
+    margin: 60px 0;
+}
+h2.cat_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #171918;
+    margin-bottom: 30px;
+}
+.box_categeory {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    height: 100%;
+    padding: 28px;
+}
+.round_circle {
+    width: 84px;
+    height: 84px;
+    background: #F1F1F1;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+p.cat_name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #171918;
+}
+/*========Top categeory End========*/
+
+/*========Grocery section css start===*/
+.grocery_content {
+    padding: 48px 0px 0 70px;
+}
+.grocery_content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #171918;
+    margin-bottom: 15px;
+
+}
+.grocery_content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+.click_basketQuality {
+    position: relative;
+}
+.click_basketQuality ul {
+    margin-top: 20px;
+}
+.click_basketQuality ul li{
+	list-style: none;
+}
+.click_basketQuality ul li::before {
+    content: "";
+    position: absolute;
+    background: #ABD03E;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    left: 0;
+}
+.click_basketQuality ul li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #171918;
+    margin-bottom: 10px;
+}
+section#grocry {
+    margin: 30px 0 50px;
+}
+
+/*========Grocery section css End===*/
+
+
+/*=========Best Products css section=========*/
+.best_pro_contentt p.best_product {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ABD03E;
+}
+.best_pro_contentt h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #171918;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Grocery_box {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 20px 20px;
+    text-align: center;
+   	width: 224px;
+
+}
+.Grocery_box img.heart {
+    width: 24px !important;
+}
+.Grocery_box img.heart {
+    margin-left: auto;
+}
+
+.Grocery_box img.products {
+    margin: 0 auto;
+}
+img.products {
+    width: 136px !important;
+}
+.slider_content p.item_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #171918;
+    margin-top:10px;
+}
+.rating_number img {
+    width: 12px !important;
+}
+.rating_number span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ABD03E;
+}
+.rating_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}	
+.item {
+    padding: 0px;
+}
+.rating_number img {
+    margin-right: 16px;
+}
+.price p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    text-align: center;
+}
+
+.price p span{
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #171918;
+margin-left: 10px;
+}
+
+
+.owl-theme .owl-nav span {
+    color: #000 !important;
+}
+.Grocery_shop_slider .owl-nav {
+    position: absolute;
+    top: -83px;
+    right: 42px;
+}
+section.best_products .owl-nav button {
+    background: #FFFFFF !important;
+    border: 1px solid #DBDBDB !important;
+    width: 48px;
+    height: 48px;
+    border-radius: 50% !important;	
+}
+section.best_products .owl-nav button:hover {
+	background: #296E50 !important;
+	transition: 0.3s !important;
+}
+
+section.best_products {
+    margin-bottom: 80px;
+}
+img.products.cucumber {
+    width: 154px !important;
+}
+img.products.lady_finger {
+    width: 161px !important;
+}
+img.products.green_chilly {
+    width: 117px !important;
+}
+img.products.bitergroud {
+    width: 175px !important;
+}
+/*=========Best Products css section=========*/
+
+/*Natural Box Css */
+.natural_ex_box {
+    background: #296E50;
+    border-radius: 12px;
+}
+
+p.nat_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+p.off_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ABD03E;
+    margin-bottom: 15px;
+}
+p.off_title span {
+    color: #fff;
+    font-weight: 700;
+}
+p.net_desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+a.shop_now {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    color: #FFFFFF;
+    background: #ABD03E;
+    border-radius: 5px;
+    padding: 6px;
+}
+.natural_ex_box .row {
+    align-items: center;
+}
+.natural_ex_box {
+    margin: 0 50px;
+}
+/*Natural Box Css */
+
+
+section#ex_online_shopping {
+    margin: 100px 0px;
+}
+.ex_shop_content h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #171918;
+    margin-bottom: 49px;
+}
+.ex_shop_content h2 span{
+	color: #ABD03E;
+}
+.ex_shop_content p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 63px;
+    color: #171918;
+}
+img.btn_app_ios {
+    margin-left: 10px;
+}
+.mob_sec img {
+    width: 500px;
+}	
+
+
+img.footer_logo {
+    width: 200px;
+    margin-bottom: 45px;
+}
+.newsl_form h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #171918;
+    margin-bottom: 20px;
+}
+.news_lettre {
+    position: relative;
+}
+.mob_sec {
+    text-align: right;
+}
+form#newsleter input#Newsletter_eamil {
+    width: 300px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px 0px 0px 5px;
+    height: 39px;
+}
+form#newsleter button {
+    background: #000;
+    border: 0px;
+    border-radius: 0px 5px 5px 0;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: #fff;
+}
+.form_right {
+    float: right;
+}
+.newsl_form p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    color: #171918;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.form_right h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #171918;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact_form form input {
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    height: 44px;
+    width: 453px !important;
+    margin: 0 auto;
+}
+input#Message {
+    height: 244px;
+}
+input::placholder{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+color: #DBDBDB;
+}
+
+.contact_form button.btn.btn-primary {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background: #ABD03E;
+    border-radius: 5px;
+    border: 0px;
+    padding: 10px 70px;
+}
+section.copyright {
+    background: #171918;
+    padding: 20px;
+}
+p.copyrigt_text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+    text-align: center;
+}
+section#form_sec {
+    margin: 0 0 100px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.main_left .main_content h1.title {
+    font-size: 45px;
+    line-height: 62px;
+}
+.delhivery_partner {
+    bottom: 31px;
+    left: 58px;
+}
+.fresh_active {
+    right: 1px;
+    bottom: 54px;
+}
+.grocery_img img {
+    width: 518px;
+}
+.mob_sec img {
+    width: 415px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+	.icon_store {
+    margin-bottom: 20px;
+}
+.mob_categeory {
+    justify-content: center;
+}
+.mob_categeory .col {
+    margin-bottom: 58px;
+}
+section#top_categeory .col {
+    flex: inherit;
+    width: 253px;
+    margin: 30px;
+}
+.grocery_img {
+    display: none;
+}
+.gro_tit_para {
+    display: none;
+}
+.grocery_content {
+    padding-left: 249px;
+    padding-top: 0;
+}
+.natural_ex_box {
+    margin: 0;
+}
+.btn_apps img {
+    width: 338px;
+}
+.mob_sec img {
+    width: 530px;
+}
+.mob_sec {
+    text-align: center;
+    margin-top: 55px;
+}
+.form_right {
+    float: inherit;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.btn_apps img {
+    width: 180px;
+}
+.mob_sec img {
+    width: 405px;
+}
+.contact_form form input {
+    width: 100% !important;
+    margin: 0 auto;
+}
+.row.bg_green_baner {
+    margin: 0px;
+}
+.main_left {
+    padding-left: 32px;
+}
+.main_left .main_content h1.title {
+    font-size: 32px;
+    line-height: 48px;
+}
+p.main_description {
+    font-size: 12px;
+    line-height: 18px;
+}
+img.basket_main {
+    width: 314px;
+}
+.basket_person {
+    margin-bottom: 55px;
+}
+.basket_person {
+    margin-bottom: 55px;
+    text-align: center;
+    margin-top: 30px;
+}
+.delhivery_partner {
+    bottom: -22px;
+    left: 0;
+}
+.delhivery_partner_content h6 {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 8px;
+}
+.delhivery_partner_content p {
+    font-size: 9px;
+    line-height: 13px;
+    margin-top: 5px;
+}
+.delhivery_partner {
+    width: 205px;
+ }
+
+ img.fresh_basket {
+    width: 33px;
+}
+p.percntage {
+    font-size: 11px;
+}
+.fresh_active {
+    right: -6px;
+    bottom: 22px;
+    width: 95px;
+}
+section#top_categeory .col {
+    width: 253px;
+    margin:25px;
+    flex: 1 0 0%;
+}
+.round_circle img {
+    width: 24px;
+    margin-top: 7px;
+}
+.round_circle {
+    width: 42px;
+    height: 42px;
+}
+p.cat_name {
+    font-size: 12px;
+    line-height: 18px;
+}
+.box_categeory {
+    padding: 15px;
+}
+section#top_categeory .col.mob_col_wi .box_categeory {
+    width: 140px;
+    margin: 0 auto;
+}
+.grocery_content {
+    padding-left: 118px;
+    padding-top: 0;
+}
+.best_pro_contentt h2 {
+    font-size: 18px;
+    line-height: 27px;
+}
+.Grocery_box {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 46px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    padding: 20px 20px;
+    text-align: center;
+    width: 189px;
+}
+.slider_content p.item_title {
+    font-size: 12px;
+    line-height: 18px;
+}
+.price p span {
+    font-size: 18px;
+    line-height: 27px;
+}
+img.products.cucumber {
+    width: 151px !important;
+}
+.slider_row {
+    margin-top: 50px;
+}
+button.owl-prev {
+    position: relative;
+    left: -228px;
+}
+button.owl-next {
+    position: relative;
+    right: -36px;
+}
+p.nat_title {	
+    margin-bottom: 0;
+}
+p.off_title {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+p.net_desc {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 9px;
+}
+.natural_content {
+    padding: 3px;
+}
+.ex_shop_content h2 {
+    font-size: 18px;
+    line-height: 27px;
+}
+.mob_sec img {
+    width: 365px;
+}
+p.copyrigt_text {
+    font-size: 14px;
+    line-height: 27px;
+}
+.form_right {
+    margin-top: 30px;
+}
+}
